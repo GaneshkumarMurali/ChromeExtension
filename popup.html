@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Report an incident</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="popup-box">
+    <div class="banner">
+        <img align="middle" class="logo" src="test.svg" alt="logo">
+    </div>
+    <h2> Report an incident</h2>
+    <table>
+        <tr>
+            <td>
+                <label>User ID</label>
+            </td>
+            <td>
+                <input type="text" name="userid" id="userid">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Issue Description</label>
+            </td>
+            <td>
+                <textarea name="description" id="description" rows=4 cols=19></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <img id="target" src="test.png" height="200">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" class="button" id="createBtn" value="Submit Ticket" autofocus>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label id="response"></label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label id="message" class="validation"></label>
+            </td>
+        </tr>
+    </table>
+    <script src="popup.js"></script>
+</body>
+</html>
