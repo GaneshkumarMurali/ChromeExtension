@@ -30,7 +30,7 @@ function serviceNowAPICall(){
             var requestBody="{\"assignment_group\":\"Chrome Extension\",\"caller_id\":\""+callerId+"\",\"short_description\":\""+shortDescription+"\",\"work_notes\":\""+"Application URL is:"+tabURL+"\"}";
             try{
                 var client=new XMLHttpRequest();
-                client.open("post","https://dev12176.service-now.com/api/now/table/incident?sysparm_fields=number%2Csys_id&sysparm_limit=1");
+                client.open("post","https://dev69618.service-now.com/api/now/table/incident?sysparm_fields=number%2Csys_id&sysparm_limit=1");
                 client.setRequestHeader('Accept','application/json');
                 client.setRequestHeader('Content-Type', 'application/json');
                 client.setRequestHeader('Authorization','Basic '+btoa('admin'+':'+'Snow!123'));
