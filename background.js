@@ -30,7 +30,7 @@ function attachmentAPICall(dataURI, sysId){
         }
         var requestBody=array;
         var client=new XMLHttpRequest();
-        client.open("post","https://dev12176.service-now.com/api/now/attachment/file?table_name=incident&table_sys_id=" + sysId + "&file_name=Screenshot_"+sysId+".jpg");
+        client.open("post","https://dev69618.service-now.com/api/now/attachment/file?table_name=incident&table_sys_id=" + sysId + "&file_name=Screenshot_"+sysId+".jpg");
         client.setRequestHeader('Accept','application/json');
         client.setRequestHeader('Content-Type', 'image/jpeg');
         client.setRequestHeader('Authorization','Basic '+btoa('admin'+':'+'Snow!123'));
